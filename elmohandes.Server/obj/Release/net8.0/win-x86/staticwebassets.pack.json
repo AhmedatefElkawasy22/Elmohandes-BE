@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\036e7aa1-b227-4e73-af12-8aaa328e01ef.jpg",
+      "PackagePath": "staticwebassets\\images\\036e7aa1-b227-4e73-af12-8aaa328e01ef.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\17eb5de3-fecd-4afd-a8aa-72b9a3b70d10.jpg",
+      "PackagePath": "staticwebassets\\images\\17eb5de3-fecd-4afd-a8aa-72b9a3b70d10.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\4d4099ba-4230-45cb-9492-0d2d195b5494.jpg",
+      "PackagePath": "staticwebassets\\images\\4d4099ba-4230-45cb-9492-0d2d195b5494.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\50b7f592-7106-4d85-bd68-572ff0f15911.jpg",
+      "PackagePath": "staticwebassets\\images\\50b7f592-7106-4d85-bd68-572ff0f15911.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\5faa9847-7c43-4ff1-9e66-41f7f938364d.jpg",
+      "PackagePath": "staticwebassets\\images\\5faa9847-7c43-4ff1-9e66-41f7f938364d.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\7196e8e0-6520-438b-bbef-51f9f7cb1303.jpg",
+      "PackagePath": "staticwebassets\\images\\7196e8e0-6520-438b-bbef-51f9f7cb1303.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\dc3750f7-1466-4bb5-a478-6e7243e71879.jpg",
+      "PackagePath": "staticwebassets\\images\\dc3750f7-1466-4bb5-a478-6e7243e71879.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\f566df80-d1aa-42fc-99fd-66717ad80da9.jpg",
+      "PackagePath": "staticwebassets\\images\\f566df80-d1aa-42fc-99fd-66717ad80da9.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\fe9fb6ac-9722-4522-90fa-05d6b92d1916.jpg",
+      "PackagePath": "staticwebassets\\images\\fe9fb6ac-9722-4522-90fa-05d6b92d1916.jpg"
+    },
+    {
+      "Id": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\wwwroot\\images\\ff707c6b-aa12-4a68-b383-f9586d8e8919.jpg",
+      "PackagePath": "staticwebassets\\images\\ff707c6b-aa12-4a68-b383-f9586d8e8919.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.build.elmohandes.Server.props",
+      "PackagePath": "build\\elmohandes.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.elmohandes.Server.props",
+      "PackagePath": "buildMultiTargeting\\elmohandes.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.elmohandes.Server.props",
+      "PackagePath": "buildTransitive\\elmohandes.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.elmohandes.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

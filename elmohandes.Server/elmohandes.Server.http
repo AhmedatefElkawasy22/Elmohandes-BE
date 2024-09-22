@@ -1,0 +1,6 @@
+@elmohandes.Server_HostAddress = http://localhost:5082
+
+GET {{elmohandes.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
