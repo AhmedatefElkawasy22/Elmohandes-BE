@@ -5,7 +5,7 @@
 namespace elmohandes.Server.Migrations
 {
     /// <inheritdoc />
-    public partial class Local_10 : Migration
+    public partial class checkServer : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

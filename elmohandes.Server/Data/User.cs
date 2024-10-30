@@ -8,5 +8,7 @@
 		[ValidAddress]
 		public string Address { get; set; }
 		public ICollection<Order> Orders { get; set; }
-	}
+        public string? OtpCode { get; set; }
+        public DateTime? OtpExpiration { get; set; }
+    }
 }

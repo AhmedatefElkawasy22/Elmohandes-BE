@@ -41,6 +41,8 @@ namespace elmohandes.Server.Data
 
             builder.Entity<Order>().Property(a => a.DeliveredTime).IsRequired(false);
 
+			builder.Entity<User>().Property(u=>u.OtpCode).IsRequired(false).HasDefaultValue(null);
+			builder.Entity<User>().Property(u=>u.OtpExpiration).IsRequired(false).HasDefaultValue(null);
         }
     }
 }

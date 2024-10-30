@@ -12,8 +12,8 @@ using elmohandes.Server.Data;
 namespace elmohandes.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240714232616_Local_8")]
-    partial class Local_8
+    [Migration("20241030013232_checkServer")]
+    partial class checkServer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -199,6 +199,12 @@ namespace elmohandes.Server.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("OtpCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("OtpExpiration")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
@@ -265,7 +271,7 @@ namespace elmohandes.Server.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("SalesBaskets");
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("elmohandes.Server.Models.CartProduct", b =>
@@ -276,11 +282,14 @@ namespace elmohandes.Server.Migrations
                     b.Property<int>("CartId")
                         .HasColumnType("int");
 
+                    b.Property<int>("CountProduct")
+                        .HasColumnType("int");
+
                     b.HasKey("ProductId", "CartId");
 
                     b.HasIndex("CartId");
 
-                    b.ToTable("CartProduct");
+                    b.ToTable("CartProducts");
                 });
 
             modelBuilder.Entity("elmohandes.Server.Models.Category", b =>
@@ -328,8 +337,12 @@ namespace elmohandes.Server.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DeliveredTime")
+                    b.Property<DateTime?>("DeliveredTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailUser")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)");
@@ -365,6 +378,9 @@ namespace elmohandes.Server.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CountOfProduct")
                         .HasColumnType("int");
 
                     b.HasKey("ProductId", "OrderId");

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("elmohandes.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeadedcb88fc794940f5716149a41ae60fb1bddd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+568ed55979165a44bd318c23792b9cfd2c8dd88d")]
 [assembly: System.Reflection.AssemblyProductAttribute("elmohandes.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("elmohandes.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
