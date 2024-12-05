@@ -1,5 +1,4 @@
-﻿using elmohandes.Server.Sevises;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 
 namespace elmohandes.Server.UOW
 {
@@ -12,16 +11,19 @@ namespace elmohandes.Server.UOW
         private readonly IEmailSender _emailSender;
         private readonly IOptions<SmtpSettings> _smtpSettings;
         private readonly UserManager<User> _userManager;
+        private readonly JwtOptions _jwtOptions;
+
         public ProductRepository Product { get; }
         public GenricRepository<Brand> Brand { get; }
         public GenricRepository<Category> Category { get; }
         public CartRepository Cart { get; }
         public UserRepository User { get; }
         public OrderRepository Order { get; }
+        public AuthRepository Auth { get; }
 
 
 
-        public UnitOfWork(ApplicationDbContext context, IMapper mapper, IUrlHelperService urlHelperService, IHttpContextAccessor contextAccessor, IEmailSender emailSender, IOptions<SmtpSettings> smtpSettings, UserManager<User> userManager)
+        public UnitOfWork(ApplicationDbContext context, IMapper mapper, IUrlHelperService urlHelperService, IHttpContextAccessor contextAccessor, IEmailSender emailSender, IOptions<SmtpSettings> smtpSettings, UserManager<User> userManager, JwtOptions jwtOptions)
         {
             _context = context;
             _mapper = mapper;
@@ -30,12 +32,14 @@ namespace elmohandes.Server.UOW
             _emailSender = emailSender;
             _smtpSettings = smtpSettings;
             _userManager = userManager;
+            _jwtOptions = jwtOptions;
             Product = new ProductRepository(_context, _mapper, _urlHelperService);
             Brand = new GenricRepository<Brand>(_context);
             Category = new GenricRepository<Category>(_context);
             Cart = new CartRepository(_context, _contextAccessor);
-            User = new UserRepository(_context, _contextAccessor,_emailSender,_userManager);
+            User = new UserRepository(_context, _contextAccessor, _emailSender, _userManager);
             Order = new OrderRepository(_context, _contextAccessor, _emailSender, _smtpSettings, this);
+            Auth = new AuthRepository(_userManager, _jwtOptions, this, _emailSender, _contextAccessor);
         }
     }
 }

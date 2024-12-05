@@ -149,3 +149,4 @@ D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\re
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\elmohandes.Server.pdb
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\elmohandes.Server.genruntimeconfig.cache
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\ref\elmohandes.Server.dll
+D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\bin\Release\net8.0\jose-jwt.dll

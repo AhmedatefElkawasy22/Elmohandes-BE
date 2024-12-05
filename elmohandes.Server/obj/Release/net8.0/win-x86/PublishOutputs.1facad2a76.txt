@@ -8,6 +8,7 @@ D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\wi
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Core.dll
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\Azure.Identity.dll
+D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\jose-jwt.dll
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\VS file\Projects_FullStack\elmohandes\elmohandes.Server\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

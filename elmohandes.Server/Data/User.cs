@@ -10,5 +10,7 @@
 		public ICollection<Order> Orders { get; set; }
         public string? OtpCode { get; set; }
         public DateTime? OtpExpiration { get; set; }
+
+		public List<RefreshToken>? RefreshTokens { get; set; }
     }
 }

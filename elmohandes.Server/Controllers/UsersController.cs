@@ -24,6 +24,8 @@ namespace elmohandes.Server.Controllers
             return Ok(currentUser);
         }
 
+
+
         [HttpPut("EditDataUser")]
         public IActionResult EditDataUser(DataUserDTO data)
         {
@@ -43,6 +45,9 @@ namespace elmohandes.Server.Controllers
             }
             return BadRequest("data is Not vaild");
         }
+
+
+
         [HttpPost("ForgotPassword/{Email}"), AllowAnonymous]
         public async Task<IActionResult> ForgotPassword([FromRoute] string Email)
         {
@@ -56,6 +61,8 @@ namespace elmohandes.Server.Controllers
             }
             return BadRequest("data is Not vaild");
         }
+
+
         [HttpPost("RestPassword"), AllowAnonymous]
         public async Task<IActionResult> VerifyOtpAndResetPasswordAsync([FromBody] ForgotPasswordDTO data)
         {
@@ -69,6 +76,8 @@ namespace elmohandes.Server.Controllers
             }
             return BadRequest("data is Not vaild");
         }
+
+
 
         [HttpPost("ChangePassword")]
         public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDTO data)

@@ -8,5 +8,6 @@
 		public CartRepository Cart { get; }
 		public UserRepository User { get; }
 		public OrderRepository Order { get; }
+		public AuthRepository Auth { get; }
 	}
 }
