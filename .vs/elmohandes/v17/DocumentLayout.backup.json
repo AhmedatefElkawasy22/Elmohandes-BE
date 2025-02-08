@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\VS file\\Projects_FullStack\\elmohandes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\sevises\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\sevises\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\models\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\models\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\sevises\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|solutionrelative:elmohandes.server\\sevises\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF1E06C6-8A3E-4FE7-A3B3-75527ED88511}|elmohandes.Server\\elmohandes.Server.csproj|d:\\vs file\\projects_fullstack\\elmohandes\\elmohandes.server\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,24 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Sevises\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "elmohandes.Server\\Sevises\\IAuthRepository.cs",
               "ToolTip": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Sevises\\IAuthRepository.cs",
               "RelativeToolTip": "elmohandes.Server\\Sevises\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T00:27:35.447Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Sevises\\AuthRepository.cs",
               "RelativeDocumentMoniker": "elmohandes.Server\\Sevises\\AuthRepository.cs",
@@ -80,21 +80,19 @@
               "ViewState": "AgIAAFMBAAAAAAAAAAAqwFABAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T02:45:39.289Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Program.cs",
               "RelativeDocumentMoniker": "elmohandes.Server\\Program.cs",
               "ToolTip": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Program.cs",
               "RelativeToolTip": "elmohandes.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T00:03:58.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T00:03:58.017Z"
             },
             {
               "$type": "Document",
@@ -122,42 +120,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\appsettings.json",
               "RelativeDocumentMoniker": "elmohandes.Server\\appsettings.json",
               "ToolTip": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\appsettings.json",
               "RelativeToolTip": "elmohandes.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-28T01:06:10.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthModel.cs",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Models\\AuthModel.cs",
               "RelativeDocumentMoniker": "elmohandes.Server\\Models\\AuthModel.cs",
               "ToolTip": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Models\\AuthModel.cs",
               "RelativeToolTip": "elmohandes.Server\\Models\\AuthModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T01:54:42.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T01:54:42.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "elmohandes.Server\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\VS file\\Projects_FullStack\\elmohandes\\elmohandes.Server\\Controllers\\AccountController.cs",
               "RelativeToolTip": "elmohandes.Server\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAADwvxMAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswBMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T00:08:09.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T00:08:09.196Z"
             },
             {
               "$type": "Document",
